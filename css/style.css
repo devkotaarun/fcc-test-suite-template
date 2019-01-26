@@ -5,9 +5,7 @@
     font-family:  sanvito-pro-display, sans-serif;
     color: #E96521;
 }
-#main{
-    min-height: 670px;
-}
+
 
 header{
     width:100vw;
@@ -28,6 +26,7 @@ header{
     justify-content:center;
     text-align:center;
     font-size:50px;
+    
     
 }
 
@@ -62,16 +61,20 @@ font-size:22px;
 }
 
 #Timeline-section{
-height:35vh;
+
 background-color:#3B3735;
-font-size:50px;
+font-size:2em;
 }
 
 #timeline-title{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     padding-top:12px;
     height:inherit;
     text-align:center;
-
+    font
    
     
 }
@@ -110,4 +113,18 @@ footer{
 
 h3 a:hover{
     color:white;
+}
+
+@media screen and (max-width:800px){
+   #title{
+       font-size:1.9em;
+   } 
+   .dates,.details{
+       font-size:1.9em;
+       height:100%;
+       display:flex;
+       align-items:center;
+       justify-content:center;
+   }
+
 }
